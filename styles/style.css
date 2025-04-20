@@ -19,12 +19,13 @@ a{
 /* Стили для первой секции */
 
 .section-1 {
+   background: rgb(40, 40, 41);
     display: flex;
-    position: relative;
-    height: 1009px;
-    margin: 0 auto; 
-    box-sizing: border-box;
-    overflow: hidden; 
+    justify-content: center;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
 }
 
 
@@ -91,10 +92,6 @@ nav a:hover{
 
 
 .img1 {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
     max-width: 763px;
     z-index: 1;
 }
